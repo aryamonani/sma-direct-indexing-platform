@@ -1,0 +1,26 @@
+# HNW individual: a technology-sector executive with significant employer equity.
+#
+# Why this profile matters: this is the fastest-growing segment for SMAs. The
+# concentration-risk screen (exclude own sector) is the most common HNW use
+# case. High marginal tax rates mean harvesting is highly valuable.
+
+client_id: hnw-003
+display_name: "P. Alvarez (Tech Exec)"
+segment: hnw_individual
+aum: 2500000
+
+screens:
+  excluded_sectors:
+    - Information Technology
+
+tax_overrides:
+  short_term: 0.37
+  long_term: 0.20
+  state: 0.093     # CA
+  niit: 0.038
+
+notes:
+  - "Senior engineer at a public technology company; large unvested and vested"
+  - "RSU position in employer plus 401(k) tech-weighted index. Excluding the"
+  - "Information Technology sector in this account restores portfolio balance."
+  - "Expect meaningful tracking error from the IT exclusion (~16% of benchmark)."

@@ -1,0 +1,21 @@
+# A second institutional client: a private foundation with different screens
+# from the endowment, to show that institutional isn't monolithic.
+
+client_id: endow-005
+display_name: "Marigold Foundation"
+segment: institution
+aum: 15000000
+
+screens:
+  excluded_sub_industries:
+    - "Soft Drinks"
+    - "Restaurants"
+  thematic_screens:
+    - weapons
+    - tobacco
+  max_single_weight: 0.06
+
+notes:
+  - "Mission-driven: health advocacy. Screens tobacco, weapons, and extends"
+  - "to major soft-drink and fast-food names."
+  - "Tax-exempt 501(c)(3); no harvesting benefit."

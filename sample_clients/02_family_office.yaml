@@ -1,0 +1,29 @@
+# Family-office sample client: a UHNW family trust.
+#
+# Why this profile matters: idiosyncratic exclusions (specific companies the
+# family will not hold), high tax sensitivity, and would arrive with a legacy
+# concentrated position in a real deployment. Harvest-aggressive.
+
+client_id: fo-002
+display_name: "Thornbury Family Trust"
+segment: family_office
+aum: 25000000
+
+screens:
+  excluded_tickers:
+    - META
+    - TSLA
+  thematic_screens:
+    - tobacco
+
+tax_overrides:
+  short_term: 0.37
+  long_term: 0.20
+  state: 0.133     # CA
+  niit: 0.038
+
+notes:
+  - "Family declines to hold META (reputational) and TSLA (concentrated exposure elsewhere)."
+  - "California residents; combined long-term capital gains rate approaches 37%."
+  - "Real deployment would include a transition-management phase to work down "
+  - "legacy concentrated holdings against a stated gain budget."

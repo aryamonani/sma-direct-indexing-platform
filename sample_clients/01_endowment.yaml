@@ -1,0 +1,22 @@
+# Institutional sample client: a mid-sized university endowment.
+#
+# Why this profile matters: shows the "screens heavy, taxes don't matter" case.
+# The optimizer should prioritize tracking error reduction over harvesting,
+# because tax-exempt entities get no benefit from realized losses.
+
+client_id: endow-001
+display_name: "Westland University Endowment"
+segment: institution
+aum: 50000000
+
+screens:
+  thematic_screens:
+    - fossil_fuels
+    - tobacco
+    - weapons
+  max_single_weight: 0.08
+
+notes:
+  - "Investment Policy Statement adopted 2019 requires fossil-fuel-free, tobacco-free, and weapons-free screens."
+  - "Max single-security weight of 8% in line with endowment UPMIFA diversification guidance."
+  - "Tax-exempt under IRC 501(c)(3); harvesting delivers no tax benefit, optimizer should barely engage."

@@ -1,0 +1,25 @@
+# A second family-office client, showing a more aggressive personal exclusion.
+
+client_id: fo-006
+display_name: "Van Houten Family Office"
+segment: family_office
+aum: 40000000
+
+screens:
+  excluded_tickers:
+    - XOM
+    - CVX
+    - COP
+  excluded_sub_industries:
+    - "Tobacco"
+  max_single_weight: 0.07
+
+tax_overrides:
+  short_term: 0.37
+  long_term: 0.20
+  state: 0.0685    # NJ
+  niit: 0.038
+
+notes:
+  - "Family exited energy holdings in 2022 and will not re-enter."
+  - "Multi-generational trust structure; harvesting is a standing priority."

@@ -1,0 +1,23 @@
+# HNW individual: a physician in private practice (no concentrated employer stock).
+#
+# Why this profile matters: a cleaner HNW case without the own-sector screen.
+# Shows what plain direct-indexing with aggressive harvesting looks like, and
+# gives the dashboard a contrast against the tech-exec account.
+
+client_id: hnw-004
+display_name: "Dr. R. Chen"
+segment: hnw_individual
+aum: 1500000
+
+screens: {}
+
+tax_overrides:
+  short_term: 0.37
+  long_term: 0.20
+  state: 0.0923    # NY
+  niit: 0.038
+
+notes:
+  - "Private practice; no concentrated employer equity, no values screens."
+  - "Pure direct-indexing play, aggressive harvesting against ordinary income"
+  - "and expected ~2% of AUM in outside realized gains annually."
